@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bachlor-project"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["ariel"]
+
+[tool.uv.sources]
+ariel = { path = "ariel", editable = true }
+
+[tool.setuptools.packages.find]
+include = ["blocks*"]
