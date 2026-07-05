@@ -2,7 +2,8 @@
 
 This repository contains the framework used to evolve motion controllers and execute vision-based homing tasks for **Baby Robot**—an asymmetric, modular robot.
 
-![Baby Robot in simulation](wiki/assets/baby_robot_sim.png)
+<img src="wiki/assets/baby_robot_sim.png" alt="Baby Robot in simulation" width="400"/>
+<img src="wiki/assets/baby_robot_real.png" alt="Baby Robot in real world" width="400"/>
 
 The project uses the VU Computational Intelligence group's [ARIEL](https://github.com/ci-group/ariel/) framework for simulation and evolution, and [robohat](https://github.com/ci-group/robohat/) for physical hardware validation.
 
